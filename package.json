@@ -1,0 +1,18 @@
+{
+  "name": "grpc-pizzaria-2020-1",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "repository": "https://github.com/rafaelfl/grpc-pizzaria-2020-1.git",
+  "author": "Rafael Fernandes Lopes <rafael.fernandes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.24.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  }
+}
